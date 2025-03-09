@@ -1,0 +1,137 @@
+body, p, h1, h2, ul, li {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: sans-serif;
+    
+}
+body {
+    background-color: rgb(239, 239, 239);
+}
+
+a {
+text-decoration: none;
+font: inherit;
+cursor: pointer;
+}
+
+ul {
+list-style: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.conteiner {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.header {
+    border-bottom: solid 1px rgb(99, 97, 97);
+    background-color: rgb(7, 8, 8);
+
+
+}
+
+.header-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+
+}
+
+.list {
+    display: flex;
+    gap: 45px;
+}
+
+.header-logo {
+    font-size: 55px;
+    font-weight: 700;
+    
+}
+
+.logo-link {
+    color:rgba(223, 104, 8, 0.848)
+}
+
+.list-link {
+    color: rgb(237, 233, 147);
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.list-link:hover, .list-link:active {
+    color:rgb(56, 173, 196)
+}
+
+.hero {
+    padding: 165px;
+    background-image: url("./images/hero.jpg");
+    color: rgb(239, 239, 239);
+    font-size: 36px;
+}
+.section {
+    padding: 35px 100px 15px 100px;
+    
+}
+
+.test {
+    color: rgb(234, 232, 232);
+    
+}
+
+.section-title, .gallerie-title {
+    padding: 15px 0;
+    font-size: 36px;
+    font-weight: 700;
+    color:rgb(49, 48, 48)
+}
+
+.section-text {
+    margin-top: 25px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    font-size: 18px;
+    color:rgb(89, 88, 88)
+
+}
+
+.footer {
+    padding: 35px 100px;
+    background-color: rgb(7, 8, 8);
+    font-size: 24px;
+    color: rgb(239, 239, 239);
+}
+
+.section-last {
+    padding-bottom: 75px;
+}
+
+.presentation {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 24px 38px;
+    background-color: rgb(166, 168, 170);
+    width: 1200px;
+  }
+  
+  .gallery-item {
+    width: calc((100% - 54px) / 3);
+  }
+
+  .gallerie-title {
+    text-transform: uppercase;
+  }
